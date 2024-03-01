@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Directions</title>
+    <style>
+      @font-face {
+        font-family: "TravelNovember";
+        src: url("TravelNovember-axmzg.ttf") format("truetype");
+      }
+      body {
+        background-color: #263238; /* Blue Grey 900 */
+        color: #b0bec5; /* Blue Grey 200 */
+        padding-top: 60px; /* Add padding to the top */
+      }
+
+      h1 {
+        color: #cfd8dc; /* Blue Grey 100 */
+        font-family: "TravelNovember", sans-serif;
+        text-align: center;
+        font-size: 50px;
+      }
+
+      .instructions {
+        color: #b0bec5; /* Blue Grey 200 */
+        font-family: "Roboto", sans-serif;
+        text-align: center;
+      }
+
+      a {
+        color: #546e7a; /* Blue Grey 600 */
+      }
+
+      a:hover {
+        color: #78909c; /* Blue Grey 400 */
+      }
+
+      .menu {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        z-index: 1;
+      }
+
+      .menu a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 18px;
+        font-family: "TravelNovember", sans-serif;
+      }
+
+      iframe {
+        display: block;
+        margin: 0 auto;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="menu">
+      <a href="index.html">Home</a>
+      <a href="rsvp.html">RSVP</a>
+      <a href="directions.html">Directions</a>
+      <a href="dress-code.html">Dress Code</a>
+      <a href="gifts.html">Gifts</a>
+    </div>
+
+    <h1>Directions</h1>
+
+    <div class="instructions">
+      <p>
+        At the security checkpoint, tell the guard you are going to Tryn
+        restaurant.
+      </p>
+    </div>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.9265284896105!2d18.42274837507093!3d-34.071397629579785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc6b141e51d367%3A0xa57e42ce104f7ceb!2sTryn!5e0!3m2!1sen!2sza!4v1709317997198!5m2!1sen!2sza"
+      width="100%"
+      height="450"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    >
+    </iframe>
+  </body>
+</html>
