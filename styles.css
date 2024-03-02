@@ -53,6 +53,12 @@ body {
   font-family: "TravelNovember", sans-serif;
 }
 
+@media screen and (max-width: 480px) {
+    .menu a {
+      font-size: 60px; /* Adjust this value as needed */
+    }
+  }
+
 .instructions {
   color: #b0bec5; /* Blue Grey 200 */
   font-family: "Roboto", sans-serif;
