@@ -24,8 +24,12 @@ body {
   justify-content: center;
   color: white;
   font-family: "TravelNovember", sans-serif;
-  font-size: 60px;
+  font-size: 80px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.splash-image span p {
+    margin-top: -90%;
 }
 
 .menu {
