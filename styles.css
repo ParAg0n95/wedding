@@ -49,15 +49,9 @@ body {
   color: white;
   text-decoration: none;
   margin: 0 15px;
-  font-size: 30px;
+  font-size: 50px;
   font-family: "TravelNovember", sans-serif;
 }
-
-@media screen and (max-width: 480px) {
-    .menu a {
-      font-size: 60px; /* Adjust this value as needed */
-    }
-  }
 
 .instructions {
   color: #b0bec5; /* Blue Grey 200 */
